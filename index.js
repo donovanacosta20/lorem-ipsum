@@ -5,6 +5,6 @@ opciones.addEventListener('click', () => {
     listGroup.classList.toggle('d-none')
 });
 
-opciones.addEventListener('focusout', () => {
-    listGroup.classList.toggle('d-none')
-})
+// opciones.addEventListener('focusout', () => {
+//     listGroup.classList.toggle('d-none')
+// })
