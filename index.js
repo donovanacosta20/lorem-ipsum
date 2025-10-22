@@ -2,9 +2,9 @@ const opciones = document.getElementById('opciones');
 const listGroup = document.getElementById('list-group');
 
 opciones.addEventListener('click', () => {
-    listGroup.classList.toggle('d-none')
+    listGroup.classList.toggle('d-none');
 });
 
 opciones.addEventListener('focusout', () => {
-    listGroup.classList.remove('d-none')
-})
+    listGroup.classList.add('d-none');
+});
