@@ -6,5 +6,5 @@ opciones.addEventListener('click', () => {
 });
 
 opciones.addEventListener('focusout', () => {
-    listGroup.classList.toggle('d-none')
+    listGroup.classList.remove('d-none')
 })
